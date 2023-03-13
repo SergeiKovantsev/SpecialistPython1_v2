@@ -16,7 +16,14 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+a = int(input("Сторона a: "))
+b = int(input("Сторона b: "))
+c = int(input("Сторона c: "))
+p = (a + b + c)
+p2 = p/2
+s = float(p2 * (p2 - a) * (p2 - b) * (p2 - c)) ** 0.5
+print("Площадь треугольника: ", s)
+print("Периметр треугольника: ", p)
 ```
 
 ---
